@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Генератор красивых фраз</h1>
-    <script>
         function makePhrases() {
             var words1 = ['24/7', 'multi-tier', '30,000 foot', 'B-to-B', 'win-win'];
             var words2 = ['emprowered', 'value-added', 'oriented', 'focused', 'aligned'];
@@ -19,9 +8,7 @@
             var rand3 = Math.floor(Math.random() * words3.length);
 
             var phrase = words1[rand1] + ' ' + words2[rand2] + ' ' + words3[rand3];
+            console.log(phrase);
             alert(phrase);
         }
         makePhrases();
-    </script>
-</body>
-</html>
