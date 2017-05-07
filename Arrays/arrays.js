@@ -9,6 +9,6 @@
 
             var phrase = words1[rand1] + ' ' + words2[rand2] + ' ' + words3[rand3];
             console.log(phrase);
-            alert(phrase);
+            //alert(phrase);
         }
         makePhrases();
