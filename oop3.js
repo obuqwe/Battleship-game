@@ -8,13 +8,13 @@ var fiat = {
     mileage: 88000,
     started: false,
     start: function() {
-    started = true;
+        this.started = true;
 },
     stop: function() {
-        started = false;
+        this.started = false;
     },
     drive: function() {
-        if (started) {
+        if (this.started) {
             alert("Zoom zoom!");
         } else {
             alert("You need to start the engine first.");
