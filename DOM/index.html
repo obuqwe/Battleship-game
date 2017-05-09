@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+      .redtext { color: red; }
+    </style>
     <script>
-        var planet = document.getElementById('greenplanet')
-        planet.innerHTML = 'Красная тревога!';
+        function init() {
+            var planet = document.getElementById('greenplanet')
+            planet.innerHTML = 'Красная тревога!';
+            planet.setAttribute ('class', 'redtext');
+        }
+        window.onload = init;
     </script>
 </head>
 <body>
